@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cinzel:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gayathri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@500&display=swap');
+/* #nav2{
+    background-color:#ffc2b3;
+} */
+#logo{
+    font-family: 'Six Caps', sans-serif;
+    font-size: 45px;
+    
+}
+
+#nav2{
+    font-family: 'Cinzel', serif;
+}
+.dropdown-menu{
+    padding: 0;
+    background-color: #333333;
+    color: white;
+}
+.dropdown-menu li a{
+    color: white;
+}
+.dropdown-menu li:hover a{
+    color: red;
+    background-color: #333333;
+}
+#li:hover{
+    background-color: #4a5456;
+}
+#footer{
+    padding-top: 15px;
+}
+#carousel-container{
+    height: 500px;
+    margin-top: 70px;
+   
+}
+#img-carousel{
+    display: block;
+    height: 600px;
+}
+#content{
+    margin-top: 30px;
+    height: 400px;
+}
+#content-other{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+#content-other li{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Bowlby One SC', cursive;
+
+}
+#content-other a{
+    color: red;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+
+}
+#content-products {
+    text-align: center;
+    margin-left: 25px;
+    /* margin-top: 50px; */
+    font-family: 'Cinzel', serif;
+    cursor: pointer;
+    /* background-color: #333333;
+    color: #9d9d9d; */
+}
+#content-products a{
+    background-color: #333333;
+    color: #99ffff; 
+    font-size: 15px;
+    padding: 5px;
+    text-decoration: none;
+    cursor: pointer;
+   
+    
+}
+#youtube-link{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+#info{
+    height: 400px;
+    margin-top: 20px;
+    background-color: #333333;
+    color: #9d9d9d;
+}
+#content-info-left{
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+
+}
+#content-info-right{
+    margin-top: 50px;
+    margin: 40px;
+}
+#email{
+    cursor: pointer ;
+}
+#footer{
+    font-family: 'Lobster', cursive;
+
+    font-size: 15px;
+}   
+/* ferrari products */
+#logo-ferrari-products{
+    margin-top: 40px;
+    /* height: 300px;
+    width: 500px; */
+    margin-left: 50%;
+    transform: translate(-50%,0);
+}
+#img-ferrari-products{
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    
+    
+}
+#panel-footer-car{
+    background-color: #333333;
+    color: #9d9d9d;
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+} 
+#panel-footer-name-car:hover{
+    opacity: 0.5;
+}
+#link-ferrari-products{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding : 5x;
+    text-align: center;
+    
+}
+#ferrari-name-product h2{
+    font-size: 45px;
+    font-weight: bold;
+    font-family: 'Holtwood One SC', serif;
+}
+#ferrari-text-product{
+    font-family: 'Cinzel', serif;
+}
+#table-product-details{
+    margin-top: 30px;
+}
+#button{
+    background-color: red;
+    color: #333333;
+    padding : 5px 20px;
+    width: 100px;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+#button:hover{
+    opacity: 0.5;
+}
+
+#name-product h3{
+    font-family: 'Gayathri', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+#name-product p{
+    font-family: 'Gayathri', sans-serif;
+    font-size: 20px;
+}
+.time-countdown{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+}
+#technical-specifications{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 50px;
+    font-family: 'Gayathri', sans-serif;
+    font-size: 20px;
+}
+
+/* Sign-in page */
+/* #table-signin{    
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,0);
+    width: 400px;    
+    margin: auto;
+    padding: 15px;
+    border: 2px double rgb(63, 59, 60);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.login-auctions{
+    color: red;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.input-box{
+    margin-bottom: 10px;
+}
+.input-box input{
+    padding: 7.5px 15px;
+    width: 100%;
+    border: 2px solid ;
+    outline: none;
+}
+.btn-box{
+    text-align: center;
+    margin-top: 15px;
+}
+.btn-box button{
+    padding: 7.5px 15px;
+    border-radius: 2px;
+    background-color: rgb(12, 11, 11);
+    color: whitesmoke;
+    border: none;
+    outline: none;
+}
+#bg-img{
+    background-image: url("sign-in-img.jpg");
+    width: 100%;
+    height: 800px;
+    margin-top: -180px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: Arial Black;
+  }
+#button-signin-page{
+    background-color: #333333;
+    color: #9d9d9d;
+    width: 100px;
+}
+#button-signin-page:hover{
+    opacity: 0.5;
+    color: rgb(204, 90, 24);
+} */
+/* contact us */
+#title-contact-us{
+    font-family: 'Holtwood One SC', serif;
+    font-size: 35px;
+}
+#text-contact-us{
+    font-family: 'Gayathri', sans-serif;
+    font-size: 20px;
+}
+#form-contact-us{
+    font-family: 'Cinzel', serif;
+}
+#content-about-us-page{
+    margin-top: 70px;
+}
+/* about-us */
+#content-about-us-page h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+    font-size: 40px;
+}
+#content-about-us-page h3{
+    font-family: 'Gayathri', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+#content-about-us-page p{
+    font-family: 'Gayathri', sans-serif;
+    font-size: 15px;
+}
+#mis-vission{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+#mis-vission li{
+    font-family: 'Gayathri', sans-serif;
+    font-size: 15px;
+}
+#content-Subscribe-about-us-page{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+    font-size: 30px;
+    
+}
+#demo-aboutus{
+    font-family: 'Cinzel', serif;
+}
+#img-about-us-page{
+   margin-bottom: 50px;
+}
+#container-ava{
+    margin-top: 50px;
+    
+}
+#our-team-about-us-page{
+    font-family: 'Bowlby One SC', cursive;
+
+}
+#our-team-about-us-page h2{
+    color: red;
+    font-size: 45px;
+}
+#our-team-about-us-page p{
+    font-family: 'Gayathri', sans-serif;
+    font-size: 20px;
+}
+#container-ava h2{
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+#container-ava p{
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+}
+#carousel-caption1{
+    margin-bottom: 40px;
+    font-family: 'Noto Serif JP', serif;
+
+}
+/* Dropdown hover */
+.dropdown:hover .dropdown-menu{
+    animation: animate 1s ease-in-out both;
+    display: block;
+    margin-top: 0;
+}  
+/* hover a : color white */
+ .dropdown:hover li:first-child{
+    animation: animate 1s ease-in-out both;
+    animation-delay: 0;
+    
+}
+.dropdown:hover li:nth-child(2){
+    animation: animate 1s ease-in-out both;
+    animation-delay: 0.5s;
+   
+}
+.dropdown:hover li:nth-child(3){
+    animation: animate 1s ease-in-out both;
+    animation-delay: 1s;
+   
+}
+.dropdown:hover li:nth-child(4){
+    animation: animate 1s ease-in-out both;
+    animation-delay: 1.5s;
+   
+}
+.dropdown:hover li:nth-child(5){
+    animation: animate 1s ease-in-out both;
+    animation-delay: 2s;
+   
+}
+.dropdown:hover li:last-child{
+    animation: animate 1s ease-in-out  backwards;
+    animation-delay: 2.5s;
+   
+} 
+@keyframes animate{  
+    0% {
+        opacity: 0;
+        transform: translateX(60px);
+      }
+      
+      80% {
+        transform: translateX(-5px);
+      }
+    
+      100% {
+        opacity: 1;
+        transform: translateX(0px);
+    
+}
+}
+/* gotopbtn */
+html{
+    scroll-behavior: smooth;
+}
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 40px;
+    background-color:#2c3e50;
+    bottom: 40px; 
+    right: 40px;
+    text-decoration: none !important;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+    font-family: 'Bowlby One SC', cursive;
+  
+}
+.gotopbtn:hover{
+    color: #f1c40f;
+}

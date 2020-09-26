@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <head class="container-fluid" id="backimg">
+        <div id="header">
+            <div id="nav1">
+                <nav class="navbar navbar-inverse navbar-fixed-top" id="nav2">
+                    <div class="container-fluid">
+                      <!-- Brand and toggle get grouped for better mobile display -->
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                        <a href="index.html"class="navbar-brand" id="logo">CAR DEAL</a>
+                      </div>
+                  
+                      <!-- Collect the nav links, forms, and other content for toggling -->
+                      <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+                        <!-- <ul class="nav navbar-nav" id="nav2">
+                          <li class="active"><a href="#">Action</a></li>
+                          <li><a href="#">Products</a></li>
+                          <li><a href="#">Deals</a></li>
+                          <li><a href="#">Contact</a></li>
+                        </ul> -->
+                        <ul class="nav navbar-nav navbar-right" id="nav2"  >
+                            <li id="li-menu-nav"><a href="aboutus.html">ABOUT US</a></li>
+                            <li class="dropdown" id="li-menu-nav"><a href="" data-toggle="dropdown">OUR PRODUCTS<span class="caret"></span></a>
+                                <ul class="dropdown-menu dropdown-menu-inverse" id="products">
+                                    <li id="li-menu-nav"><a href="product-ferrari.html">Ferrari</a></li>
+                                    <li id="li-menu-nav"><a href="product-lambo.html">Lamborghini</a></li>
+                                    <li id="li-menu-nav"><a href="product-porsche.html">Porsche</a></li>
+                                    <li id="li-menu-nav"><a href="product-bugatti.html">Bugatti</a></li>  
+                                    <li id="li-menu-nav"><a href="#">Rolls Royce</a></li>
+                                    <li id="li-menu-nav"><a href="#">Bentley</a></li>                          
+                                </ul>
+                            </li>
+                            <li  id="li-menu-nav"><a href="Disclaimers.html">DISCLAIMER</a></li>
+                            <li  id="li-menu-nav"><a href="signin.html">SIGNIN</a></li>
+                            <li  id="li-menu-nav"><a href="contactus.html">CONTACT US</a></li>
+                            
+                            </ul>
+                          </li>
+                        </ul>
+                      </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                  </nav>
+
+            </div>
+        </head>
+        <br>
+        <br>
+        <br>
+        <div class="container">
+            
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+          
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="image/porsche/porsche5_1.jpg" alt="Los Angeles" style="width:100%; height: 700px;">  
+                </div>
+                <div class="item">
+                  <img src="image/porsche/porsche5_2.jpg" alt="Chicago" style="width:100%; height: 700px;">
+                </div>
+                <div class="item">
+                  <img src="image/porsche/porsche5_4.jpg " alt="New York" style="width:100%; height: 700px;">
+                </div>           
+              </div>         
+              <!-- Left and right controls -->
+              <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+        </div>
+         
+          <!-- table -->
+          <div class="container" id="table-product-details">    
+            <form onsubmit="combine(); return false;">
+                <table class="table table-bordered text-center">                
+                    <tr>
+                      <td colspan="2" id="ferrari-name-product"><h2>Porsche 917/30 Spyder</h2></td>                   
+                    </tr>               
+                    <tr>
+                      <td colspan="2"><span id="demo" class="time-countdown"></span></td>                    
+                    </tr>
+                    <tr>
+                      <td id="ferrari-text-product">Total bidding now($)</td>
+                      <td><input type="text" id="totalmoney" value="3000000" style="width: 70%; text-align: center; font-family: 'Cinzel', serif;"/></td>                    
+                    </tr>
+                    <tr>
+                        <td id="ferrari-text-product">Enter your bidding($)</td>
+                        <td><input type="text" id="spinmoney" style="width: 70%; text-align: center; font-family: 'Cinzel', serif;" required/></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button type="submit" id="button">Spin</button></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><div id="result" style="text-align: center; font-family: 'Cinzel', serif; color: red;"></div></td>
+                    </tr>
+                </table>
+            </form>
+      </div>
+      <div class="container" id="name-product">
+        <hr>
+        <h3>Information</h3>
+        <p>1973 saw a lot of great successes in the automobile and racing markets, but nobody saw a success quite like Porsche. Porsche manufactured and released an absolute monster on the track formally known at the Porsche 917/30 Can-Am Spyder. This beast boasted an insane 1600 horsepower behind a flat-12 engine. This model was originally built to compete in the Can-Am championship and happened to be the only championship winning car in Can-Am not powered by Chevrolet. In 1972 McLaren had a grip on the series for over 5-years and was finally beaten by George Follmer for Penske Racing and everyone was astounded. The turbocharged 850hp 917/10k was thought to be the absolute latest and greatest for finally beating McLaren. 1973 came and Penske was turned upside down by the newly introduced 917/30 from none other than Porsche. When the Can-Am series came around again, Porsche managed to win all but 2 races in the series with their 1600 horsepower supercar. Due to McLaren not being able to compete with the 917 turbos they pulled out of the Can-Am series to work on Formula 1 and Indy 500. The selling price of this model is 3 million USD.</p>
+        
+        <hr>
+        <h3>Technical Specifications</h3>
+        <table class="table table-bordered text-center" id="technical-specifications">
+          <tr>
+            <td>Engine</td>
+            <td>4.5 liter</td>
+          </tr>
+          <tr>
+            <td>Wattage</td>
+            <td>1200 horsepower</td>
+          </tr>
+          <tr>
+            <td>Weight</td>
+            <td>849 KG</td>
+          </tr>
+        </table>
+    </div>
+
+      <footer>
+        <div class="container-fluid text-center"  style="height: 50px; background-color: #2d3e50; color: white;" >
+            <p id="footer">© 2016 Super Deal. All rights Reserved. </p>
+        </div>
+    </footer>
+     <!-- Compiled and minified jQuery -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <script>
+      // Set the date we're counting down to
+      
+      var countDownDate1 = new Date();
+        var countDownDate= countDownDate1.setHours(1);
+        var now1 = new Date();
+
+        var now = now1.setHours(0);
+        var distance = countDownDate - now;
+
+      // Update the count down every 1 second
+      var x = setInterval(function () {
+
+        console.log("CountDate" + countDownDate);
+        console.log("Now:" + now);
+
+        // Find the distance between now and the count down date
+        distance = distance -1000;
+        console.log("Distance:"+distance);
+        console.log(typeof(distance));
+
+        // Time calculations for days, hours, minutes and seconds
+        
+        var hours = Math.floor(
+          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+        );
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Output the result in an element with id="demo"
+        document.getElementById("demo").innerHTML = 
+        hours + ":" + minutes + ":" + seconds;
+
+        // If the count down is over, write some text
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo").innerHTML = "Spin-out";
+          document.getElementById("button").disabled = true;
+        }
+      }, 1000);
+       
+
+      function combine() {
+        var x = document.getElementById("totalmoney").value;
+        
+
+        var y = document.getElementById("spinmoney").value;
+        
+        var total = parseInt(x) + parseInt(y);
+        //alert(total);
+       document.getElementById("result").innerHTML =  "You Bid: "+ y;
+       document.getElementById("totalmoney").value = total;
+    //    if(total == 5100)
+    //    {
+    //     document.getElementById("button").disabled = true;
+    
+    //   }
+    }
+    </script>
+</body>
+</html>

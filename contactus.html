@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <head class="container-fluid" id="backimg">
+        <div id="header">
+            <div id="nav1">
+                <nav class="navbar navbar-inverse navbar-fixed-top" id="nav2">
+                    <div class="container-fluid">
+                      <!-- Brand and toggle get grouped for better mobile display -->
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                        <a href="index.html"class="navbar-brand" id="logo">CAR DEAL</a>
+                      </div>
+                  
+                      <!-- Collect the nav links, forms, and other content for toggling -->
+                      <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+                        <!-- <ul class="nav navbar-nav" id="nav2">
+                          <li class="active"><a href="#">Action</a></li>
+                          <li><a href="#">Products</a></li>
+                          <li><a href="#">Deals</a></li>
+                          <li><a href="#">Contact</a></li>
+                        </ul> -->
+                        <ul class="nav navbar-nav navbar-right" id="nav2"  >
+                            <li id="li-menu-nav"><a href="aboutus.html">ABOUT US</a></li>
+                            <li class="dropdown" id="li-menu-nav"><a href="" data-toggle="dropdown">PRODUCTS<span class="caret"></span></a>
+                                <ul class="dropdown-menu dropdown-menu-inverse" id="products">
+                                    <li id="li-menu-nav"><a href="product-ferrari.html">Ferrari</a></li>
+                                    <li id="li-menu-nav"><a href="product-lambo.html">Lamborghini</a></li>
+                                    <li id="li-menu-nav"><a href="product-porsche.html">Porsche</a></li>
+                                    <li id="li-menu-nav"><a href="product-bugatti-details8.html">Bugatti</a></li> 
+                                    <li id="li-menu-nav"><a href="#">Rolls Royce</a></li>
+                                    <li id="li-menu-nav"><a href="#">Bentley</a></li>                           
+                                </ul>
+                            </li>
+                            <li  id="li-menu-nav"><a href="Disclaimers.html">DISCLAIMER</a></li>
+                            <li  id="li-menu-nav"><a href="signin.html">SIGNIN</a></li>
+                            <li  id="li-menu-nav"><a href="contactus.html">CONTACT US</a></li>
+                            
+                            </ul>
+                          </li>
+                        </ul>
+                      </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                  </nav>
+
+            </div>
+        </head>
+        <br>
+        <br>
+        <br>
+       
+        <div style="margin-left : 60px; font-size: 25px; padding: 30px">
+            <div class="container-fluid" >
+                <div>
+                    <p id="title-contact-us">Contact</p>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <span class="glyphicon glyphicon-map-marker"></span>
+                        <span id="text-contact-us">Address</span>
+                        <p id="text-contact-us">590 CMT8 street</p>
+                    </div>
+                    <div class="col-md-4  text-center">
+                        <span class="glyphicon glyphicon-earphone"></span>
+                        <span id="text-contact-us"> Telephone</span><br>
+                        <span class="glyphicon glyphicon-phone"></span>
+                        <span id="text-contact-us"> 0907577250</span><br>
+                    </div>
+                    <div class="col-md-4  text-center">
+                        <span class="glyphicon glyphicon-time"></span>
+                        <span id="text-contact-us"> Working House</span><br>
+                        <p id="text-contact-us">8:00 Am - 8:00 Pm <br>Only Saturday and Sunday</p>
+                    </div>
+                </div>
+                        <div>
+                            <p id="title-contact-us">FeedBack</p>
+                        </div>
+                        <hr>
+                </div>
+        </div>
+        <br>
+        <div class="container" style="float: left; margin-left: 100px;" id="container-contactus">
+            <div class="row">
+            <form onsubmit="storeData();">             
+                    <div class="col-sm-6 col-md-6">
+                        <div class="form-group" id="form-contact-us" >
+                            <label for="fname">Full Name(*)</label>
+                            <input type="text" id="fname" name="name" placeholder="Enter your name..." class="form-control" required>
+                            <label for="email">Email(*)</label>
+                            <input type="text" id="email" name="email" placeholder="Enter your email..." class="form-control" required>
+                            <label for="tele">Telephone(*)</label>
+                            <input type="text" id="tele" name="phone" placeholder="Enter your phone..." class="form-control"  required>
+                            <label for="address">Address(*)</label>
+                            <input type="text" id="address" name="address" placeholder="Enter your address..."  class="form-control" required>
+                            <label for="">Feedback(*)</label>
+                            <textarea class="form-control" name="comment" id="mess" cols="40" rows="10" placeholder="Enter your message..." ></textarea>
+                            <br>
+                            <input type="submit" value="Submit" >
+                        </div>  
+                    </div>         
+            </form>        
+                    <div class="col-sm-6 col-md-6">
+                        <img src="contact-us-img.jpg" width="650px" height="550px">
+                    </div>
+            </div>
+        </div>
+           
+  
+
+
+
+<!-- Compiled and minified jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script>
+    function storeData() {
+        var fname = document.getElementById('fname').value;
+        var email = document.getElementById('email').value;
+        var phone = document.getElementById('tele').value;
+        var address = document.getElementById('address').value;
+        var content = document.getElementById('mess').value;
+        alert("Full name: " + fname + '\n' +
+            "Address: " + address + '\n' +
+            "Email: " + email + '\n' +
+            "Phone: " + phone + '\n' +
+            "Content: " + content + '\n');
+    }
+</script>
+</body>
+</html>
